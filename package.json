@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --progress --colors --devtool cheap-module-eval-source-map --hot --inline",
-    "build": "webpack --progress --colors --devtool cheap-module-source-map",
+    "build0": "webpack --progress --colors --devtool cheap-module-source-map",
     "serve0": "vue-cli-service serve",
-    "build0": "vue-cli-service build",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
