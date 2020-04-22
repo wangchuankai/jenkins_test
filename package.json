@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --progress --colors --devtool cheap-module-eval-source-map --hot --inline",
-    "build0": "webpack --progress --colors --devtool cheap-module-source-map",
-    "serve0": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
